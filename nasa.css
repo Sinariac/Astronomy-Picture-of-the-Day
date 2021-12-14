@@ -12,6 +12,11 @@
 .calendario {
     text-align: center;
 }
+#botao {
+        background: transparent;
+        border: none !important;
+
+}
 .fundo { 
     background-image: url(./helix.jfif);
     background-repeat: no-repeat;
@@ -28,7 +33,7 @@
 }
 #img {
     border-radius: 60px;
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 #legenda{
