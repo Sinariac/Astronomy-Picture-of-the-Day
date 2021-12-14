@@ -7,8 +7,10 @@
 .calendario {
     text-align: center;
 }
-.fundo {
+.fundo { 
     background-image: url(./helix.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .resultado {
     display: flex;
@@ -32,4 +34,9 @@
     width: 50%;
     height:40%;
     text-align: justify;
+}
+.rodape {
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
