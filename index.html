@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+		<meta charset="UTF-8">
+		<title>Projeto APOD</title>
+        <link rel="stylesheet" href="./nasa.css">
+</head>
+<body class="fundo">
+
+  <header class="apod">Astronomy Picture of the Day</header> <br> <br>
+
+<div class="calendario">
+  <input type="date" name="data" id="data" min="1995-16-06"> <br> 
+  <br>
+  <button type="submit" id="botao">Explore</button> 
+</div>
+
+<div class="resultado">
+ <p id="titulo"></p>
+ <img src="" id="img">
+
+  <div class="texto">
+    <p id="legenda"></p>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="./nasa.js"></script>
+</body>
+</html>

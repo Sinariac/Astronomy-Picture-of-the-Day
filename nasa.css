@@ -1,0 +1,35 @@
+.apod {
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+.calendario {
+    text-align: center;
+}
+.fundo {
+    background-image: url(./helix.jfif);
+}
+.resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titulo{
+    font-size: 25px;
+    color: white;
+}
+#img {
+    border-radius: 60px;
+    width: 40%;
+    height: 100%;
+}
+#legenda{
+    font-size: 22px;
+    color: white;
+}
+.texto {
+    width: 50%;
+    height:40%;
+    text-align: justify;
+}
