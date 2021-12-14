@@ -4,6 +4,11 @@
     font-style: italic;
     color: white;
 }
+#subtitulo {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
 .calendario {
     text-align: center;
 }
@@ -37,6 +42,10 @@
 }
 .rodape {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
+}
+a {
+    text-decoration: none;
     color: white;
 }
